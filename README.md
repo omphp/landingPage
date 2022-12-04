@@ -1,1 +1,1 @@
-# landingPage
+This repo contains the foundation assignment 2: Landing Page.
