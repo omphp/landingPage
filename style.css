@@ -26,11 +26,6 @@ ul {
     color: #F9FAF8;
 }
 
-.headerLink {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .container1 {
     padding: 100px 200px;
     background-color: #1f2937;
@@ -42,7 +37,7 @@ ul {
 
 .mainImg {
     width: 600px;
-    height: 200px;
+    height: 220px;
 }
 
 .text1 {
@@ -65,3 +60,9 @@ ul {
     color: #F9FAF8;
     padding: 5px 20px;
 }
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+  }
