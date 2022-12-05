@@ -34,6 +34,12 @@ ul {
     justify-content: space-between;
     align-items: flex-start;
     gap: 50px;
+    flex: 1;
+}
+
+.container2 {
+    flex: 1;
+    padding: 50px 100px 100px;
 }
 
 .mainImg {
@@ -55,11 +61,12 @@ ul {
 
 .button1 {
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #3882F6;
     font-size: 18px;
+    font-weight: 550;
     color: #F9FAF8;
-    padding: 5px 20px;
+    padding: 10px 40px;
 }
 
 a {
@@ -73,6 +80,7 @@ a {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
+    margin-top: 0px;
     margin-bottom: 50px;
 }
 
@@ -105,11 +113,12 @@ a {
     justify-content: center;
     align-items: center;
     padding: 100px 400px;
+    flex: 1;
 }
 
 .quote {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
     color: #1f2937;
 }
@@ -119,4 +128,52 @@ a {
     align-self: flex-end;
     font-size: 24px;
     font-weight: bold;
+}
+
+.container4 {
+    display: flex;
+    padding: 100px 200px;
+    flex: 1;
+}
+
+.subContainer4 {
+    padding: 50px 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctaText1 {
+    margin: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.ctaText2 {
+    margin: 0px;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #F9FAF8;
+}
+
+.button2 {
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 0px 40px;
+    line-height: 30px;
+    height: 40px;
+    align-self: center;
+}
+
+.footer {
+    padding: 40px 200px;
+    background-color: #1f2937;
+    text-align: center;
+    color: #F9FAF8;
 }
