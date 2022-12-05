@@ -31,20 +31,30 @@ ul {
     padding: 100px 200px;
     background-color: #1f2937;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     gap: 50px;
     flex: 1;
 }
 
+.subContainer1 {
+    max-width: 600px;
+    min-width: 300px;
+    flex: 1 0 0px;
+    flex-shrink: 1;
+}
 .container2 {
     flex: 1;
     padding: 50px 100px 100px;
 }
 
 .mainImg {
-    width: 600px;
-    height: 220px;
+    max-width: 600px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 150px;
+    flex: 1 0 0px;
 }
 
 .text1 {
