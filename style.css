@@ -142,6 +142,8 @@ a {
 
 .container4 {
     display: flex;
+    justify-content: center;
+    align-content: center;
     padding: 100px 200px;
     flex: 1;
 }
